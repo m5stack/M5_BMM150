@@ -90,7 +90,7 @@ void bmm150_offset_load(){  //load the data.  加载bmm150的数据
 void setup() {
     M5.begin(true, false, true, false); //Init M5Core(Initialize LCD, serial port).  初始化 M5Core（初始化LCD、串口）
     M5.Power.begin();   //Init Power module.  初始化电源设置
-    Wire.begin(21, 22, 400000); //Set the frequency of the SDA SCL.  设置SDA和SCL的频率
+    Wire.begin(21, 22, 400000UL); //Set the frequency of the SDA SCL.  设置SDA和SCL的频率
 
     img.setColorDepth(1);   //Set bits per pixel for colour.  设置色深为1
     img.setTextColor(TFT_WHITE);    //Set the font foreground colour (background is.  设置字体的前景色为TFT_WHITE
