@@ -6,7 +6,7 @@ M5Stack-**M5 BMM150**
 
 ## Related Link
 
-[Docment & Datasheet](https://docs.m5stack.com/en)
+[Document & Datasheet](https://docs.m5stack.com/en)
 
 ## License
 
