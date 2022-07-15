@@ -1699,7 +1699,7 @@ static int16_t compensate_z(int16_t mag_data_z, uint16_t data_rhall, const struc
 static int8_t perform_normal_self_test(const struct bmm150_dev *dev)
 {
 	int8_t rslt;
-	uint8_t self_test_bit;
+	uint8_t self_test_bit = 0;
 
 	/* Triggers the start of normal self test */
 	rslt = enable_normal_self_test(&self_test_bit, dev);
